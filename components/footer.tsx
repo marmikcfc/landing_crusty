@@ -1,6 +1,6 @@
 'use client';
 
-import { Mail, Github, Linkedin, Twitter } from 'lucide-react';
+import { Mail, Github as GithubIcon, Linkedin, X } from 'lucide-react';
 
 export function Footer() {
   return (
@@ -55,9 +55,9 @@ export function Footer() {
             </p>
             <div className="flex items-center space-x-6">
               <a href="#" className="hover:text-white transition"><Mail size={20} /></a>
-              <a href="#" className="hover:text-white transition"><Github size={20} /></a>
-              <a href="#" className="hover:text-white transition"><LinkedIn size={20} /></a>
-              <a href="#" className="hover:text-white transition"><Twitter size={20} /></a>
+              <a href="#" className="hover:text-white transition"><GithubIcon size={20} /></a>
+              <a href="#" className="hover:text-white transition"><Linkedin size={20} /></a>
+              <a href="#" className="hover:text-white transition"><X size={20} /></a>
             </div>
           </div>
         </div>
